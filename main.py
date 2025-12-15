@@ -17,7 +17,7 @@ class Scanner:
     def print_banner(self):
         print(Fore.CYAN + Style.BRIGHT + """
     ========================================
-       PYRECON-LITE | CTF AUTOMATION TOOL
+       PYRECON | CTF AUTOMATION TOOL
     ========================================
         """)
 
