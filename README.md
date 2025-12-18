@@ -6,10 +6,11 @@ Ce projet a été réalisé dans un but pédagogique pour approfondir mes compé
 
 ## 🚀 Fonctionnalités
 
-- **Vérification de la cible** : Test de connectivité (Ping ICMP).
-- **Scan de ports rapide** : Utilisation de Nmap pour identifier les ports ouverts (Top 1000).
-- **Détection de services** : Identification des versions de services (bannières).
-- **Rapport CLI** : Affichage coloré et structuré des résultats dans le terminal.
+- **Smart Scanning** : Déclenche des scripts spécifiques selon les ports ouverts.
+- **FTP Inspector** : Teste automatiquement la connexion `anonymous` si le port 21 est ouvert.
+- **Web Recon** : Récupère le titre, le serveur et vérifie la présence de `robots.txt` sur les ports 80/443/8080.
+- **Auto-Reporting** : Génère automatiquement un fichier `scan_report_<IP>.txt` avec tous les résultats.
+- **Nmap Integration** : Utilise Nmap pour la détection de services et de versions.
 
 ## 📋 Prérequis
 
